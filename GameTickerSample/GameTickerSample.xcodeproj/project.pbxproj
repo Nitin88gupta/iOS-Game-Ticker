@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C98879D18FE828900E52D95 /* NGAvatarSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C98879C18FE828900E52D95 /* NGAvatarSprite.m */; };
+		1C98879F18FE829B00E52D95 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C98879E18FE829B00E52D95 /* SpriteKit.framework */; };
+		1CF18EBB18FE442900F8FF26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF18EBA18FE442900F8FF26 /* Foundation.framework */; };
+		1CF18EBD18FE442900F8FF26 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF18EBC18FE442900F8FF26 /* CoreGraphics.framework */; };
+		1CF18EBF18FE442900F8FF26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF18EBE18FE442900F8FF26 /* UIKit.framework */; };
+		1CF18EC518FE442900F8FF26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CF18EC318FE442900F8FF26 /* InfoPlist.strings */; };
+		1CF18EC718FE442900F8FF26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18EC618FE442900F8FF26 /* main.m */; };
+		1CF18ECB18FE442900F8FF26 /* NGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18ECA18FE442900F8FF26 /* NGAppDelegate.m */; };
+		1CF18ECE18FE442900F8FF26 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF18ECC18FE442900F8FF26 /* Main_iPhone.storyboard */; };
+		1CF18ED118FE442900F8FF26 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CF18ECF18FE442900F8FF26 /* Main_iPad.storyboard */; };
+		1CF18ED418FE442900F8FF26 /* NGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18ED318FE442900F8FF26 /* NGViewController.m */; };
+		1CF18ED618FE442900F8FF26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CF18ED518FE442900F8FF26 /* Images.xcassets */; };
+		1CF18EDD18FE442900F8FF26 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF18EDC18FE442900F8FF26 /* XCTest.framework */; };
+		1CF18EDE18FE442900F8FF26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF18EBA18FE442900F8FF26 /* Foundation.framework */; };
+		1CF18EDF18FE442900F8FF26 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF18EBE18FE442900F8FF26 /* UIKit.framework */; };
+		1CF18EE718FE442900F8FF26 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CF18EE518FE442900F8FF26 /* InfoPlist.strings */; };
+		1CF18EE918FE442900F8FF26 /* GameTickerSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18EE818FE442900F8FF26 /* GameTickerSampleTests.m */; };
+		1CF18EF718FE443600F8FF26 /* NGGameTicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18EF418FE443600F8FF26 /* NGGameTicker.m */; };
+		1CF18EF818FE443600F8FF26 /* NGTickerModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CF18EF618FE443600F8FF26 /* NGTickerModal.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CF18EE018FE442900F8FF26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CF18EAF18FE442900F8FF26 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CF18EB618FE442900F8FF26;
+			remoteInfo = GameTickerSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C98879B18FE828900E52D95 /* NGAvatarSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGAvatarSprite.h; sourceTree = "<group>"; };
+		1C98879C18FE828900E52D95 /* NGAvatarSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGAvatarSprite.m; sourceTree = "<group>"; };
+		1C98879E18FE829B00E52D95 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		1CF18EB718FE442900F8FF26 /* GameTickerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameTickerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CF18EBA18FE442900F8FF26 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1CF18EBC18FE442900F8FF26 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1CF18EBE18FE442900F8FF26 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1CF18EC218FE442900F8FF26 /* GameTickerSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GameTickerSample-Info.plist"; sourceTree = "<group>"; };
+		1CF18EC418FE442900F8FF26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1CF18EC618FE442900F8FF26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1CF18EC818FE442900F8FF26 /* GameTickerSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GameTickerSample-Prefix.pch"; sourceTree = "<group>"; };
+		1CF18EC918FE442900F8FF26 /* NGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGAppDelegate.h; sourceTree = "<group>"; };
+		1CF18ECA18FE442900F8FF26 /* NGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGAppDelegate.m; sourceTree = "<group>"; };
+		1CF18ECD18FE442900F8FF26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		1CF18ED018FE442900F8FF26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		1CF18ED218FE442900F8FF26 /* NGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NGViewController.h; sourceTree = "<group>"; };
+		1CF18ED318FE442900F8FF26 /* NGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NGViewController.m; sourceTree = "<group>"; };
+		1CF18ED518FE442900F8FF26 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1CF18EDB18FE442900F8FF26 /* GameTickerSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameTickerSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CF18EDC18FE442900F8FF26 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1CF18EE418FE442900F8FF26 /* GameTickerSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GameTickerSampleTests-Info.plist"; sourceTree = "<group>"; };
+		1CF18EE618FE442900F8FF26 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1CF18EE818FE442900F8FF26 /* GameTickerSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameTickerSampleTests.m; sourceTree = "<group>"; };
+		1CF18EF318FE443600F8FF26 /* NGGameTicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGGameTicker.h; sourceTree = "<group>"; };
+		1CF18EF418FE443600F8FF26 /* NGGameTicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGGameTicker.m; sourceTree = "<group>"; };
+		1CF18EF518FE443600F8FF26 /* NGTickerModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NGTickerModal.h; sourceTree = "<group>"; };
+		1CF18EF618FE443600F8FF26 /* NGTickerModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NGTickerModal.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CF18EB418FE442900F8FF26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C98879F18FE829B00E52D95 /* SpriteKit.framework in Frameworks */,
+				1CF18EBD18FE442900F8FF26 /* CoreGraphics.framework in Frameworks */,
+				1CF18EBF18FE442900F8FF26 /* UIKit.framework in Frameworks */,
+				1CF18EBB18FE442900F8FF26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CF18ED818FE442900F8FF26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF18EDD18FE442900F8FF26 /* XCTest.framework in Frameworks */,
+				1CF18EDF18FE442900F8FF26 /* UIKit.framework in Frameworks */,
+				1CF18EDE18FE442900F8FF26 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CF18EAE18FE442900F8FF26 = {
+			isa = PBXGroup;
+			children = (
+				1CF18EC018FE442900F8FF26 /* GameTickerSample */,
+				1CF18EE218FE442900F8FF26 /* GameTickerSampleTests */,
+				1CF18EB918FE442900F8FF26 /* Frameworks */,
+				1CF18EB818FE442900F8FF26 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1CF18EB818FE442900F8FF26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CF18EB718FE442900F8FF26 /* GameTickerSample.app */,
+				1CF18EDB18FE442900F8FF26 /* GameTickerSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CF18EB918FE442900F8FF26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C98879E18FE829B00E52D95 /* SpriteKit.framework */,
+				1CF18EBA18FE442900F8FF26 /* Foundation.framework */,
+				1CF18EBC18FE442900F8FF26 /* CoreGraphics.framework */,
+				1CF18EBE18FE442900F8FF26 /* UIKit.framework */,
+				1CF18EDC18FE442900F8FF26 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1CF18EC018FE442900F8FF26 /* GameTickerSample */ = {
+			isa = PBXGroup;
+			children = (
+				1CF18EC918FE442900F8FF26 /* NGAppDelegate.h */,
+				1CF18ECA18FE442900F8FF26 /* NGAppDelegate.m */,
+				1CF18ECC18FE442900F8FF26 /* Main_iPhone.storyboard */,
+				1CF18ECF18FE442900F8FF26 /* Main_iPad.storyboard */,
+				1CF18ED218FE442900F8FF26 /* NGViewController.h */,
+				1CF18ED318FE442900F8FF26 /* NGViewController.m */,
+				1C98879B18FE828900E52D95 /* NGAvatarSprite.h */,
+				1C98879C18FE828900E52D95 /* NGAvatarSprite.m */,
+				1CF18EF218FE443600F8FF26 /* NGTickerHandler */,
+				1CF18ED518FE442900F8FF26 /* Images.xcassets */,
+				1CF18EC118FE442900F8FF26 /* Supporting Files */,
+			);
+			path = GameTickerSample;
+			sourceTree = "<group>";
+		};
+		1CF18EC118FE442900F8FF26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CF18EC218FE442900F8FF26 /* GameTickerSample-Info.plist */,
+				1CF18EC318FE442900F8FF26 /* InfoPlist.strings */,
+				1CF18EC618FE442900F8FF26 /* main.m */,
+				1CF18EC818FE442900F8FF26 /* GameTickerSample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CF18EE218FE442900F8FF26 /* GameTickerSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CF18EE818FE442900F8FF26 /* GameTickerSampleTests.m */,
+				1CF18EE318FE442900F8FF26 /* Supporting Files */,
+			);
+			path = GameTickerSampleTests;
+			sourceTree = "<group>";
+		};
+		1CF18EE318FE442900F8FF26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CF18EE418FE442900F8FF26 /* GameTickerSampleTests-Info.plist */,
+				1CF18EE518FE442900F8FF26 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CF18EF218FE443600F8FF26 /* NGTickerHandler */ = {
+			isa = PBXGroup;
+			children = (
+				1CF18EF318FE443600F8FF26 /* NGGameTicker.h */,
+				1CF18EF418FE443600F8FF26 /* NGGameTicker.m */,
+				1CF18EF518FE443600F8FF26 /* NGTickerModal.h */,
+				1CF18EF618FE443600F8FF26 /* NGTickerModal.m */,
+			);
+			path = NGTickerHandler;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CF18EB618FE442900F8FF26 /* GameTickerSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CF18EEC18FE442900F8FF26 /* Build configuration list for PBXNativeTarget "GameTickerSample" */;
+			buildPhases = (
+				1CF18EB318FE442900F8FF26 /* Sources */,
+				1CF18EB418FE442900F8FF26 /* Frameworks */,
+				1CF18EB518FE442900F8FF26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameTickerSample;
+			productName = GameTickerSample;
+			productReference = 1CF18EB718FE442900F8FF26 /* GameTickerSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CF18EDA18FE442900F8FF26 /* GameTickerSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CF18EEF18FE442900F8FF26 /* Build configuration list for PBXNativeTarget "GameTickerSampleTests" */;
+			buildPhases = (
+				1CF18ED718FE442900F8FF26 /* Sources */,
+				1CF18ED818FE442900F8FF26 /* Frameworks */,
+				1CF18ED918FE442900F8FF26 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CF18EE118FE442900F8FF26 /* PBXTargetDependency */,
+			);
+			name = GameTickerSampleTests;
+			productName = GameTickerSampleTests;
+			productReference = 1CF18EDB18FE442900F8FF26 /* GameTickerSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CF18EAF18FE442900F8FF26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NG;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Nitin Gupta";
+				TargetAttributes = {
+					1CF18EDA18FE442900F8FF26 = {
+						TestTargetID = 1CF18EB618FE442900F8FF26;
+					};
+				};
+			};
+			buildConfigurationList = 1CF18EB218FE442900F8FF26 /* Build configuration list for PBXProject "GameTickerSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CF18EAE18FE442900F8FF26;
+			productRefGroup = 1CF18EB818FE442900F8FF26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CF18EB618FE442900F8FF26 /* GameTickerSample */,
+				1CF18EDA18FE442900F8FF26 /* GameTickerSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CF18EB518FE442900F8FF26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF18ED118FE442900F8FF26 /* Main_iPad.storyboard in Resources */,
+				1CF18ED618FE442900F8FF26 /* Images.xcassets in Resources */,
+				1CF18ECE18FE442900F8FF26 /* Main_iPhone.storyboard in Resources */,
+				1CF18EC518FE442900F8FF26 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CF18ED918FE442900F8FF26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF18EE718FE442900F8FF26 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CF18EB318FE442900F8FF26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C98879D18FE828900E52D95 /* NGAvatarSprite.m in Sources */,
+				1CF18ED418FE442900F8FF26 /* NGViewController.m in Sources */,
+				1CF18EC718FE442900F8FF26 /* main.m in Sources */,
+				1CF18EF718FE443600F8FF26 /* NGGameTicker.m in Sources */,
+				1CF18ECB18FE442900F8FF26 /* NGAppDelegate.m in Sources */,
+				1CF18EF818FE443600F8FF26 /* NGTickerModal.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CF18ED718FE442900F8FF26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CF18EE918FE442900F8FF26 /* GameTickerSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CF18EE118FE442900F8FF26 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CF18EB618FE442900F8FF26 /* GameTickerSample */;
+			targetProxy = 1CF18EE018FE442900F8FF26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CF18EC318FE442900F8FF26 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CF18EC418FE442900F8FF26 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1CF18ECC18FE442900F8FF26 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CF18ECD18FE442900F8FF26 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		1CF18ECF18FE442900F8FF26 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CF18ED018FE442900F8FF26 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		1CF18EE518FE442900F8FF26 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CF18EE618FE442900F8FF26 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CF18EEA18FE442900F8FF26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1CF18EEB18FE442900F8FF26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CF18EED18FE442900F8FF26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameTickerSample/GameTickerSample-Prefix.pch";
+				INFOPLIST_FILE = "GameTickerSample/GameTickerSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1CF18EEE18FE442900F8FF26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameTickerSample/GameTickerSample-Prefix.pch";
+				INFOPLIST_FILE = "GameTickerSample/GameTickerSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1CF18EF018FE442900F8FF26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GameTickerSample.app/GameTickerSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameTickerSample/GameTickerSample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GameTickerSampleTests/GameTickerSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1CF18EF118FE442900F8FF26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GameTickerSample.app/GameTickerSample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameTickerSample/GameTickerSample-Prefix.pch";
+				INFOPLIST_FILE = "GameTickerSampleTests/GameTickerSampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CF18EB218FE442900F8FF26 /* Build configuration list for PBXProject "GameTickerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CF18EEA18FE442900F8FF26 /* Debug */,
+				1CF18EEB18FE442900F8FF26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CF18EEC18FE442900F8FF26 /* Build configuration list for PBXNativeTarget "GameTickerSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CF18EED18FE442900F8FF26 /* Debug */,
+				1CF18EEE18FE442900F8FF26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CF18EEF18FE442900F8FF26 /* Build configuration list for PBXNativeTarget "GameTickerSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CF18EF018FE442900F8FF26 /* Debug */,
+				1CF18EF118FE442900F8FF26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CF18EAF18FE442900F8FF26 /* Project object */;
+}
